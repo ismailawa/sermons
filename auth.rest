@@ -1,0 +1,13 @@
+POST http://localhost:3000/auth/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "ismailawa.aliyu@gmail.com",
+    "password": "password"
+}
+
+
+###
+GET http://localhost:3000/users HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InByb2ZpbGVQaWN0dXJlIjoicGljdHVyZS5wbmciLCJfaWQiOiI1ZmM2YTUzYjU3M2I4MWI3OTg0YmUwZDgiLCJmaXJzdE5hbWUiOiJpc21haWxhd2EiLCJsYXN0TmFtZSI6ImFsaXl1IiwiZW1haWwiOiJpc21haWxhd2EuYWxpeXVAZ21haWwuY29tIiwidXNlck5hbWUiOiJpc21haWxhd2EiLCJwYXNzd29yZCI6IiQyYiQxMCRiTG82MFFaUFI2c0JmTnNnVC5ZZ2p1LmVGcGFoS2NTMVIycHF6UlUzRnlJdFJjV0hxSk1VaSIsImNyZWF0ZWRBdCI6IjIwMjAtMTItMDFUMjA6MTk6MDcuODUwWiIsInVwZGF0ZWRBdCI6IjIwMjAtMTItMDFUMjA6MTk6MDcuODUwWiIsIl9fdiI6MH0sImlkIjoiNWZjNmE1M2I1NzNiODFiNzk4NGJlMGQ4IiwiaWF0IjoxNjA2ODUzOTY3LCJleHAiOjE2MDY4NTUxNjd9.tLiFSSJhz1bZF_KItVldT_jx4VIXYzOXtFnm1QNLiRA
